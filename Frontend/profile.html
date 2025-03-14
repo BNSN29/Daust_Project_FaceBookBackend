@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - Social App</title>
+  <link rel="stylesheet" href="Style/credential.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Social App</h1>
+    <nav class="header-nav">
+      <a href="index.html" class="nav-link">Login</a>
+      <a href="register.html" class="nav-link">Register</a>
+      <a href="profile.html" class="nav-link active">Profile</a>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="profile-container">
+      <h2 class="profile-title">User Profile</h2>
+      <div class="profile-info">
+        <div class="profile-field">
+          <span class="profile-label">Username:</span>
+          <span id="profile-username" class="profile-value">Loading...</span>
+        </div>
+        <div class="profile-field">
+          <span class="profile-label">User ID:</span>
+          <span id="profile-id" class="profile-value">Loading...</span>
+        </div>
+      </div>
+      <p id="profile-message" class="form-message"></p>
+      <p class="form-link">
+        <a href="#" id="logout-link">Logout</a>
+      </p>
+    </div>
+  </main>
+  <script src="JS/app.js"></script>
+</body>
+</html>

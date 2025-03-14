@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Social App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Social App</h1>
+    <div class="header-right">
+      <input type="text" placeholder="Search..." class="search-bar">
+      <div class="user-initial" id="user-initial">A.N</div>
+    </div>
+  </header>
+  <div class="drawer" id="user-drawer">
+    <p id="drawer-username">Username: Loading...</p>
+    <p id="drawer-admin-status">Role: Loading...</p>
+    <button id="logout-btn" class="form-button">Logout</button>
+  </div>
+  <main class="main">
+    <div class="dashboard-container">
+      <h2 class="dashboard-title">Admin Dashboard</h2>
+      <div class="dashboard-content">
+        <h3>Admin Settings</h3>
+        <ul>
+          <li>Manage Users</li>
+          <li>Moderate Posts</li>
+          <li>View Analytics</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
